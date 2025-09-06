@@ -16,8 +16,8 @@ def is_enabled(value, default):
 
 # Main
 SESSION = environ.get("SESSION", "Media_search")
-API_ID = int(environ.get("API_ID", "24989803"))
-API_HASH = environ.get("API_HASH", "1f42d3bb1ac54fed8941aa7befe39111")
+API_ID = int(environ.get("API_ID", ""))
+API_HASH = environ.get("API_HASH", "")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 PORT = environ.get("PORT", "8082")
 
@@ -40,13 +40,13 @@ CHANNELS = [
 # ForceSub Channel & Log Channels
 AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", "-1002837642549"))
 AUTH_REQ_CHANNEL = int(environ.get("AUTH_REQ_CHANNEL", "-1002837642549"))
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002988561117"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002790419863"))
 LOG_API_CHANNEL = int(environ.get("LOG_API_CHANNEL", "0"))
 LOG_VR_CHANNEL = int(environ.get("LOG_VR_CHANNEL", "-1002568325258"))
 
 # MongoDB
-DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://rishubhaibots23:rishubhaibots23@rishubhaibots23.ijpirqt.mongodb.net/?retryWrites=true&w=majority&appName=rishubhaibots23")
-DATABASE_NAME = environ.get("DATABASE_NAME", "rishubhaibots23")
+DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://Rishubhai2:Rishubhai2@rishubhai2.gefsdls.mongodb.net/?retryWrites=true&w=majority&appName=Rishubhai2")
+DATABASE_NAME = environ.get("DATABASE_NAME", "Rishubhai2")
 
 # Files index database url
 FILES_DATABASE = environ.get("FILES_DATABASE", "-1002810916133")
