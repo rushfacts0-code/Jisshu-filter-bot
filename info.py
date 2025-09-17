@@ -29,7 +29,7 @@ ADMINS = [
 OWNER_USERNAME = environ.get(
     "OWNER_USERNAME", "RishuBotz"
 )  # without @ or https://t.me/rishubhai1
-USERNAME = environ.get("USERNAME", "")  # ADMIN USERNAME
+USERNAME = environ.get("USERNAME", "Rishubhai1")  # ADMIN USERNAME
 
 # Database Channel
 CHANNELS = [
@@ -45,8 +45,8 @@ LOG_API_CHANNEL = int(environ.get("LOG_API_CHANNEL", "-1002852175362"))
 LOG_VR_CHANNEL = int(environ.get("LOG_VR_CHANNEL", "-1002789438648"))
 
 # MongoDB
-DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://Rishubhai2:Rishubhai2@rishubhai2.gefsdls.mongodb.net/?retryWrites=true&w=majority&appName=Rishubhai2")
-DATABASE_NAME = environ.get("DATABASE_NAME", "Rishubhai2")
+DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://Cluster0:Cluster0000p@cluster0.a4i1ywb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get("DATABASE_NAME", "Cluster0")
 
 # Files index database url
 FILES_DATABASE = environ.get("FILES_DATABASE", "")
